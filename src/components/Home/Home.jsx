@@ -1,5 +1,5 @@
 
-export default function Nav () {
+export default function Home () {
     return (
         <div>
             
