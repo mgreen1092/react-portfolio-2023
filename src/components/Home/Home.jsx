@@ -25,12 +25,12 @@ const Home = () => {
                 <div data-aos='fade-right' className='px-8 w-[80%] md:w-1/3 '>
                     <img src={Headshot} 
                         className='object-cover w-full rounded-xl' 
-                        alt='headshot of girl'/>
+                        alt='headshot'/>
                 </div>
 
                 <div data-aos='fade-left' className='w-full md:h-full md:w-2/3 px-8 mx-auto flex flex-col justify-center h-fit font-mono text-color'>
                     <p className='mt-8 text-lg md:text-xl'>Hi, my name is</p>
-                    <h1 className='text-4xl md:text-6xl font-bold font-display py-4'>Christina Lu</h1>
+                    <h1 className='text-4xl md:text-6xl font-bold font-display py-4'>Morgan Green</h1>
                     <h2 className='text-lg md:text-xl font-bold'>
                         <Typewriter 
                             onInit={(typewriter) => {
