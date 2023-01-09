@@ -102,7 +102,7 @@ export default function Nav () {
             </li>
             <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#4C433D] rounded'>
                 <a className='w-full flex justify-between items-center text-[#EDEAE3] text-xs'
-                href='https://docs.google.com/document/d/1C11F4Id4KA-uCKp-HMRe0HMV9VNXJu9KkKWG5S8CGJU/edit?usp=sharing' target='_blank' rel="noreferrer">
+                href='https://drive.google.com/file/d/18XyBKk4cD0GLYYkGolKLJvKim3TcbJZT/view?usp=sharing' target='_blank' rel="noreferrer">
                     Resume <BsFillPersonLinesFill size={25} />
                 </a>
             </li>
