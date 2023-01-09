@@ -24,10 +24,10 @@ export default function About () {
                 {/* about me */}
                 <div className='max-w-[1000px] px-8 py-2 sm:px-16 sm:py-4 w-full grid sm:grid-cols-2 gap-8'>
                     <div className='text-xl sm:text-lg sm:text-right font-bold'>
-                        <p data-aos='fade-right'>Hello there! I'm Christina.</p>
+                        <p data-aos='fade-right'>Hello there! I'm Morgan.</p>
                     </div>
                     <div>
-                        <p data-aos='fade-left'>I love using code to create beautiful and functional experiences from scratch.</p>
+                        <p data-aos='fade-left'>I am a dedicated, creative, and innovative software engineer with a passion for finding efficient solutions to complex problems.</p>
                     </div>
                 </div>
     
@@ -36,7 +36,7 @@ export default function About () {
                         <p data-aos='fade-right'>How I got here:</p>
                     </div>
                     <div data-aos='fade-left'>
-                        <p>My passion for software development stemmed from my last role as a legal assistant while working on the company site.</p>
+                        <p>My passion for software engineering stemmed from my last role as a data analyst.</p>
                         <br></br>
                         <p>Watching the ideas in my mind come to life in the browser was like magic to me, <span className='italic'>and I've been hooked ever since.</span></p>
                     </div>
@@ -61,7 +61,7 @@ export default function About () {
                     <div data-aos='fade-left'>
                         <p>I am actively seeking an entry level software engineer role to work on functional projects using intentional and user-focused design.</p>
                         <br></br>
-                        <p>With my experience in the legal, hospitality, and education services industry, I am confident in my ability to work effectively with people from all backgrounds.</p>
+                        <p>With my experience in data analytics, I am confident in my ability to work effectively with people from all backgrounds.</p>
                     </div>
                 </div>
                 

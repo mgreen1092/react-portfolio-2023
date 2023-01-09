@@ -1,11 +1,10 @@
 import React from 'react'
-import ProjectManager from '../../assets/project-mgr.png'
-// import RestaurantManager from '../../assets/restaurant-mgr.png'
-import KrustyKrab from '../../assets/krustykrab.png'
-import Portfolio from '../../assets/portfolio.png'
+import Spotifly from '../../assets/spotifly1.png'
 import Wave from '../../assets/Wave.svg'
-import GITRipped from '../../assets/gitripped.png'
+import StockSeries from '../../assets/stockseries1.png'
 import Projects from '../ProjectCard/ProjectCard'
+import GoalMaster from '../../assets/goalmaster1.png'
+import GolfTrivia from '../../assets/golftrivia.png'
 
 const Work = () => {
   return (
@@ -27,22 +26,21 @@ const Work = () => {
                 
             {/* ===================================================================== */}
                 <Projects 
-                    projectImg={ProjectManager} 
-                    alt={'screenshot of project manager application'}  projectTitle='Simple Tracker' 
-                    projectSubtitle={'React | Flask | PostgreSQL'} 
-                    desc={'An easy-to-use project manager for freelancers and independent contractors.'}
-                    />
-                    {/* demo={'https://projectxmanager.herokuapp.com'} 
-                    code={'https://github.com/christinalu3799/project-manager-frontend'}/> */}
+                    projectImg={GoalMaster} 
+                    alt={'screenshot of GoalMaster'}  projectTitle='Goal Master' 
+                    projectSubtitle={'React | Mongoose | Express | Node.JS'} 
+                    desc={'An easy-to-use goal tracker applicatiom to manage your new year goals.'}
+                    demo={'https://goalmaster-frontend-21pq3xp4o-mgreen1092.vercel.app/'} 
+                    code={'https://github.com/mgreen1092/goalmaster-frontend.git'}/>
             {/* ===================================================================== */}
                 <Projects
-                    projectImg={Portfolio} 
-                    alt={'screenshot of portfolio'} 
-                    projectTitle='Portfolio'
-                    projectSubtitle={'React | Tailwind CSS'} 
-                    desc={'My developer portfolio created with React and styled with Tailwind.'} />
-                    {/* demo={'/'} 
-                    code={'https://github.com/christinalu3799/react-portfolio'}/> */}
+                    projectImg={Spotifly} 
+                    alt={'screenshot of spotifly'} 
+                    projectTitle='Spotifly'
+                    projectSubtitle={'React | Mongoose | Express | Node,JS'}  
+                    desc={'Spotifly, a group project created in collaboration with two other students, is a music streaming app similar to Spotify allowing users to create and view playlists while streaming their favoritei songs without advertisements.'}
+                    demo={'https://spotifly-ga.vercel.app/login'} 
+                    code={'https://github.com/aaixn/spotifly-frontend.git'}/>
             {/* ===================================================================== */}
                 {/* <ProjectCard 
                     projectImg={RestaurantManager} 
@@ -52,21 +50,21 @@ const Work = () => {
                     code={'https://github.com/christinalu3799/restaurant-inventory-manager'}/> */}
             {/* ===================================================================== */}
                 <Projects
-                    projectImg={KrustyKrab} 
-                    alt={'screenshot of krusty krab racing game'}  
-                    projectTitle='2-Player Racing Game' 
-                    projectSubtitle={'HTML | CSS | JavaScript'} 
-                    desc={'A racing game based on my favorite childhood show. May the swiftest Patty Wagon win.'} />
-                    {/* demo={'https://christinalu3799.github.io/race-to-the-krusty-krab/'} 
-                    code={'https://github.com/christinalu3799/race-to-the-krusty-krab'}/> */}
+                    projectImg={StockSeries} 
+                    alt={'screenshot of Stock Series website'}  
+                    projectTitle='Stock Series' 
+                    projectSubtitle={'React | API | Recharts'} 
+                    desc={'A user friendly website dispalying key data on S&P 500 stocks.'}
+                    demo={'https://stock-series-co65odfsy-mgreen1092.vercel.app/'} 
+                    code={'https://github.com/mgreen1092/stock-series-app.git'}/>
             {/* ===================================================================== */}
                 <Projects 
-                    projectImg={GITRipped} 
-                    alt={'screenshot of gitripped application'}  projectTitle='GITRipped - Workout App' 
-                    projectSubtitle={'MERN Stack'} 
-                    desc={'A simple application created with 2 other developers that allows users to browse and save different exercises.'} />
-                    {/* demo={'https://gitripped-app.herokuapp.com/'} 
-                    code={'https://github.com/pgarbrecht/gitripped-frontend'}/> */}
+                    projectImg={GolfTrivia} 
+                    alt={'screenshot of Golf Trivia application'}  projectTitle='Golf Trivia' 
+                    projectSubtitle={'HTML | CSS | JavaScript'} 
+                    desc={'Tests your knowledge of men\'s and women\'s professional golf.'}
+                    demo={'https://mgreen1092.github.io/trivia-game/'} 
+                    code={'https://github.com/mgreen1092/trivia-game.git'}/>
             {/* ===================================================================== */}
                 
             </div>   
