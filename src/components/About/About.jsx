@@ -61,7 +61,7 @@ export default function About () {
                     <div data-aos='fade-left'>
                         <p>I am actively seeking an entry level software engineer role to work on functional projects and contribute to company missions.</p>
                         <br></br>
-                        <p>With my experience in data analytics, I am confident in my ability to work effectively with people from all backgrounds.</p>
+                        <p>With my experience in data analytics, I am confident in my ability to work effectively and collaboratively with people from all backgrounds.</p>
                     </div>
                 </div>
                 
