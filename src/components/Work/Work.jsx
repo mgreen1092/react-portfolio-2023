@@ -1,5 +1,5 @@
 import React from 'react'
-import Spotifly from '../../assets/spotifly1.png'
+import Spotifly from '../../assets/spotifly2.png'
 import Wave from '../../assets/Wave.svg'
 import StockSeries from '../../assets/stockseries1.png'
 import Projects from '../ProjectCard/ProjectCard'
