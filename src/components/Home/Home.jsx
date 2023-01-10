@@ -6,6 +6,7 @@ import Typewriter from 'typewriter-effect'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
+import Footer from '../Footer/Footer'
 
 const Home = () => {
     // animate on scroll effect
@@ -50,7 +51,7 @@ const Home = () => {
                                 <span className='group-hover:rotate-90 transition ease-in-out duration-300'><HiArrowNarrowRight className='ml-4' /></span>
                             </Link>
                         </button>
-
+                        <Footer />
                     </div>
                 </div>
             
