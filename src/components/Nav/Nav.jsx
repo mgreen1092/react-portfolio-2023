@@ -5,6 +5,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../../assets/logo.svg'
 import {Link} from 'react-scroll'
 import { useState } from "react";
+import Switcher from '../Switcher/Switcher'
 
 export default function Nav () {
     const [nav, setNav] = useState(false)
@@ -14,9 +15,6 @@ export default function Nav () {
     <div>
         <img src={Logo} alt='personal logo' style={{width: '70px'}}/>
     </div>
-
-    {/* menu */}
-    {/* display anything above small */}
     <ul className='hidden sm:flex text-color'>
         <li className='hover:underline underline-offset-4'>
             <Link to="home" smooth={true} duration={500}>
@@ -45,8 +43,13 @@ export default function Nav () {
         </li>
     </ul>
 
-    <div onClick={handleClick} className='sm:hidden z-10'>
-        {!nav ? <FaBars color='#221F1B'/> : <FaTimes color='#EDEAE3'/>}
+    <div onClick={handleClick} className='sm:hidden z-10 flex justify-center'>
+        <div className='py-3 px-3'>
+            <Switcher />
+        </div>
+        <div className='py-4 px-3'>
+            {!nav ? <FaBars color='#221F1B'/> : <FaTimes color='#EDEAE3'/>}
+        </div>
     </div>
 
     {/* mobile menu */}

@@ -5,10 +5,10 @@ import About from './components/About/About';
 import Skills from './components/Skills/Skills';
 import Work from './components/Work/Work';
 import Contact from './components/Contact/Contact';
-// import Footer from './components/DarkMode/DarkMode';
-// import Switcher from './components/Switcher/Switcher';
+import DarkMode from './components/DarkMode/DarkMode';
+import Switcher from './components/Switcher/Switcher';
 import './App.css';
-// import { useState } from "react";
+import { useState } from "react";
 
 function App() {
   // const [theme, setTheme] = useState(localStorage.theme);
@@ -21,8 +21,7 @@ function App() {
       <Skills />
       <Work />
       <Contact />
-      {/* <Footer theme={theme} setTheme={setTheme}/>
-      <Switcher /> */}
+      {/* <DarkMode theme={theme} setTheme={setTheme}/> */}
     </div>
   );
 }
