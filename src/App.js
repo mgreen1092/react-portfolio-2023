@@ -7,8 +7,11 @@ import Work from './components/Work/Work';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer'
 import './App.css';
+import { useState } from "react";
 
 function App() {
+  const [theme, setTheme] = useState(localStorage.theme);
+  // const colorTheme = theme === "dark" ? "light" : "dark";
   return (
     <div className='flex flex-col items-center overflow-x-hidden background-color text-color'>
       <Nav />
@@ -17,7 +20,7 @@ function App() {
       <Skills />
       <Work />
       <Contact />
-      <Footer />
+      <Footer theme={theme} setTheme={setTheme}/>
     </div>
   );
 }
