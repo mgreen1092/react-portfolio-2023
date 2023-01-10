@@ -11,7 +11,7 @@ export default function Nav () {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
     return (
-    <div className='sm:background-color fixed w-full h-[100px] flex justify-between items-center px-8 text-grey-300 font-mono z-10 max-w-[1200px]'>
+    <div className='background-color fixed w-full h-[100px] flex justify-between items-center px-8 text-grey-300 font-mono z-10 max-w-[1200px]'>
     <div>
         <img src={Logo} alt='personal logo' style={{width: '70px'}}/>
     </div>
@@ -41,8 +41,11 @@ export default function Nav () {
                 contact
             </Link>
         </li>
+        <div className='px-3'>
+            <Switcher />
+        </div>
     </ul>
-
+    {/* media  */}
     <div onClick={handleClick} className='sm:hidden z-10 flex justify-center'>
         <div className='py-3 px-3'>
             <Switcher />
