@@ -11,7 +11,7 @@ const Work = () => {
     <div name='work' className='w-full md:h-fit font-mono box-border background-color'>
         {/* wave */}
         <div className='w-full my-8'> 
-            <img src={Wave} className='w-full' alt='wave section divider'></img>
+            <img src={Wave} className='w-full py-4' alt='wave section divider'></img>
         </div> 
 
         {/* container */}
