@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 
-const Footer = ({theme, setTheme}) => {
+const DarkMode = ({theme, setTheme}) => {
     const colorTheme = theme === "dark" ? "light" : "dark";
     useEffect(() => {
         const root = window.document.documentElement;
@@ -46,4 +46,4 @@ const Footer = ({theme, setTheme}) => {
     )
 }
 
-export default Footer
+export default DarkMode
