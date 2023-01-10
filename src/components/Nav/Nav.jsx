@@ -45,7 +45,6 @@ export default function Nav () {
         </li>
     </ul>
 
-    {/* hamburger */}
     <div onClick={handleClick} className='sm:hidden z-10'>
         {!nav ? <FaBars color='#221F1B'/> : <FaTimes color='#EDEAE3'/>}
     </div>
