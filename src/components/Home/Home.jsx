@@ -15,10 +15,10 @@ const Home = () => {
         })
     },[])
     return (
-        <div name='home' className='flex w-full h-screen justify-center background-color pt-[100px] dark:bg-slate-800 dark:text-white'>
+        <div name='home' className='flex w-full h-screen justify-center background-color pt-[100px] dark:bg-slate-800'>
 
             {/* container */}
-            <div className='flex w-full flex-col h-full items-start md:flex-row max-w-[1200px] justify-center md:items-center'> 
+            <div className='flex w-full flex-col h-full items-start md:flex-row max-w-[1200px] justify-center md:items-center dark:text-white'> 
 
                 {/* hero */}
                 <div data-aos='fade-right' className='px-8 w-[80%] md:w-1/3 '>

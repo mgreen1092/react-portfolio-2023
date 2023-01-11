@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className='flex flex-col items-center overflow-x-hidden background-color text-color dark:bg-slate-800 dark:text-white'>
+    <div className='flex flex-col items-center overflow-x-hidden background-color'>
       <Nav />
       <Home />
       <About />
