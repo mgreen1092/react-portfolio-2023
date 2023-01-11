@@ -6,7 +6,7 @@ const Contact = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
     return (
-        <div name='contact' className='w-full h-fit flex flex-col justify-center items-center py-16 font-mono background-color'>
+        <div name='contact' className='w-full h-fit flex flex-col justify-center items-center py-16 font-mono background-color dark:bg-slate-800 dark:text-white'>
 
             {/* wave */}
             <div className='w-screen mb-16'> 

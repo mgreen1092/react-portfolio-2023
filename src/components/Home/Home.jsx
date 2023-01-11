@@ -15,7 +15,7 @@ const Home = () => {
         })
     },[])
     return (
-        <div name='home' className='flex w-full h-screen justify-center background-color pt-[100px]'>
+        <div name='home' className='flex w-full h-screen justify-center background-color pt-[100px] dark:bg-slate-800 dark:text-white'>
 
             {/* container */}
             <div className='flex w-full flex-col h-full items-start md:flex-row max-w-[1200px] justify-center md:items-center'> 

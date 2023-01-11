@@ -5,7 +5,7 @@ export default function About () {
     return (
         <div name='about' className='w-full h-fit background-color'>
     
-            <div className='flex flex-col justify-center items-center w-full h-full font-mono'>
+            <div className='flex flex-col justify-center items-center w-full h-full font-mono dark:bg-slate-800 dark:text-white'>
     
                 {/* wave */}
                 <div className=' w-full mb-16'> 
