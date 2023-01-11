@@ -11,7 +11,7 @@ export default function Nav () {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
     return (
-    <div className='background-color fixed w-full h-[100px] flex justify-between items-center px-8 text-grey-300 font-mono z-10 max-w-[1200px]'>
+    <div className='background-color fixed w-full h-[100px] flex justify-between items-center px-8 text-grey-300 font-mono z-10 max-w-[1200px] dark:bg-slate-800 dark:text-white'>
     <div>
         <img src={Logo} alt='personal logo' style={{width: '70px'}}/>
     </div>
