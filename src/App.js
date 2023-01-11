@@ -8,8 +8,6 @@ import Contact from './components/Contact/Contact';
 import './App.css';
 
 function App() {
-  // const [theme, setTheme] = useState(localStorage.theme);
-  // const colorTheme = theme === "dark" ? "light" : "dark";
   return (
     <div className='flex flex-col items-center overflow-x-hidden background-color text-color'>
       <Nav />
