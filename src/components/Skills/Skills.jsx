@@ -3,7 +3,7 @@ import Wave from '../../assets/Wave.svg'
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full font-mono background-color'>
+    <div name='skills' className='w-full font-mono background-color dark:bg-slate-800 dark:text-white'>
         {/* wave */}
         <div className='w-full mt-16 mb-8'> 
             <img src={Wave} className='w-full' alt='wave section divider'></img>

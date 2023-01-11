@@ -7,7 +7,7 @@ class ProjectCard extends Component {
     render() {
         return (
         
-            <div data-aos='fade-up' className=' p-4 shadow-lg shadow-[#d6d6d6] group container rounded flex flex-col justify-center items-center mx-auto bg-[#ffffff] '>
+            <div data-aos='fade-up' className=' p-4 shadow-lg shadow-[#d6d6d6] group container rounded flex flex-col justify-center items-center mx-auto bg-[#ffffff] dark:bg-slate-800 dark:text-white'>
 
                 <div className='w-full h-full sm:h-[450px] bg-[#eeeeee]'> 
                     <img className='object-cover rounded w-full h-full shadow filter contrast-75 hover:contrast-100 ease-in-out duration-500' src={this.props.projectImg} alt={this.props.alt}/>
@@ -32,10 +32,10 @@ class ProjectCard extends Component {
                     {/* buttons */}
                     <div className='pt-2 text-center'>
                         <a href={this.props.demo} target='_blank' rel="noreferrer">
-                            <button className='text-sm text-center border border-[#4C433D] rounded px-4 py-2 m-2 bg-white font-bold hover:bg-[#4C433D] hover:text-[#ffffff] hover:border-[#4C433D] transition ease-in-out duration-300'>Demo</button>
+                            <button className='text-sm text-center border border-[#4C433D] rounded px-4 py-2 m-2 bg-white font-bold hover:bg-[#4C433D] hover:text-[#ffffff] hover:border-[#4C433D] transition ease-in-out duration-300 dark:text-black'>Demo</button>
                         </a>
                         <a href={this.props.code} target='_blank' rel="noreferrer">
-                            <button className='text-sm text-center border border-[#4C433D] rounded px-4 py-2 m-2 bg-white font-bold hover:bg-[#4C433D] hover:text-[#ffffff] hover:border-[#4C433D] transition ease-in-out duration-300'>Code</button>
+                            <button className='text-sm text-center border border-[#4C433D] rounded px-4 py-2 m-2 bg-white font-bold hover:bg-[#4C433D] hover:text-[#ffffff] hover:border-[#4C433D] transition ease-in-out duration-300 dark:text-black'>Code</button>
                         </a>
                     </div>
                 </div>

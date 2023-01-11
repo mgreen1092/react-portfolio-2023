@@ -42,13 +42,13 @@ export default function Nav () {
             </Link>
         </li>
         <div className='px-3'>
-            <Switcher />
+            {/* <Switcher /> */}
         </div>
     </ul>
     {/* media  */}
     <div onClick={handleClick} className='sm:hidden z-10 flex justify-center'>
         <div className='py-3 px-3'>
-            <Switcher />
+            {/* <Switcher /> */}
         </div>
         <div className='py-4 px-3'>
             {!nav ? <FaBars color='#221F1B'/> : <FaTimes color='#EDEAE3'/>}
