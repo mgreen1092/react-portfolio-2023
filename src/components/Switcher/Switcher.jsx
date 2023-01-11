@@ -15,6 +15,7 @@ const Switcher = () => {
     };
   
     return (
+        <div>
         <>
             <DarkModeSwitch
                 style={{ marginBottom: "2rem" }}
@@ -23,6 +24,7 @@ const Switcher = () => {
                 size={30}
             />
         </>
+        </div>
     );
 }
 

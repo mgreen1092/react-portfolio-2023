@@ -23,3 +23,6 @@
 .text-color {
     color: #4C433D;
 }
+.dark {
+    @apply bg-gray-800 text-zinc-50;
+ }
