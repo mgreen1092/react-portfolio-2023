@@ -6,8 +6,10 @@ import Skills from './components/Skills/Skills';
 import Work from './components/Work/Work';
 import Contact from './components/Contact/Contact';
 import './App.css';
+import {useState} from 'react'
 
 function App() {
+  const [darkMode, setDarkMode] = useState(true)
   return (
     <div className='flex flex-col items-center overflow-x-hidden background-color text-color'>
       <Nav />
