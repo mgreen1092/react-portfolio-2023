@@ -6,6 +6,7 @@ import Logo from '../../assets/logo.svg'
 import {Link} from 'react-scroll'
 import { useState } from "react";
 import Switcher from '../Switcher/Switcher'
+import DarkModeLogo from '../../assets/logo.svg'
 
 export default function Nav () {
     const [nav, setNav] = useState(false)
@@ -13,7 +14,12 @@ export default function Nav () {
     return (
     <div className='background-color text-color fixed w-full h-[100px] flex justify-between items-center px-8 text-grey-300 font-mono z-10 max-w-[1200px] dark:bg-slate-800 dark:text-white'>
     <div>
-        <img src={Logo} alt='personal logo' style={{width: '70px'}}/>
+        <div className='hidden dark:flex'>
+            <img src={DarkModeLogo} alt='personal logo' style={{width: '70px'}} />
+        </div>
+        <div className='dark:hidden'>
+            <img src={Logo} alt='personal logo' style={{width: '70px'}}/>
+        </div>
     </div>
     <ul className='hidden sm:flex text-color'>
         <li className='hover:underline underline-offset-4'>
