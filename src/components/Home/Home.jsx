@@ -44,7 +44,7 @@ const Home = () => {
                         {/* view my work button */}
                         <button >
 
-                            <Link to="work" smooth={true} duration={500} className='text-color group border border-[#4C433D] px-6 py-3 my-2 flex items-center hover:bg-[#221F1B] hover:text-white hover:border-transparent rounded transition ease-in-out duration-300'>
+                            <Link to="work" smooth={true} duration={500} className='text-color group border border-[#4C433D] dark:border-white px-6 py-3 my-2 flex items-center hover:bg-[#221F1B] hover:text-white hover:border-transparent rounded transition ease-in-out duration-300'>
                                 View My Work 
                                 <span className='group-hover:rotate-90 transition ease-in-out duration-300'><HiArrowNarrowRight className='ml-4' /></span>
                             </Link>
