@@ -52,10 +52,7 @@ export default function Nav () {
             <Switcher />
         </div>
     </ul>
-    {/* media  */}
-        {/* <div>
-            <Switcher />
-        </div> */}
+
         <m.div
           initial={{x: 500, opacity: 0, scale: 1}}
           animate={{x: 0, opacity: 1, scale: 1}}
@@ -82,9 +79,7 @@ export default function Nav () {
           </div>
         
         </m.div>
-    {/* <div className='sm:hidden z-10 flex justify-center py-3 px-3'>
-            <Switcher />
-    </div> */}
+
 
     {/* mobile menu */}
     <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#EDEAE3] dark:bg-slate-800 flex flex-col justify-center items-center'}>
