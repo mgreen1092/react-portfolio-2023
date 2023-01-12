@@ -1,5 +1,7 @@
 import React from "react"
-import Wave from '../../assets/Wave.svg'
+import Wave from '../../assets/Wave.svg';
+import {Link} from 'react-scroll';
+import {HiArrowNarrowRight} from 'react-icons/hi'
 
 export default function About () {
     return (
@@ -62,6 +64,12 @@ export default function About () {
                         <p>I am actively seeking an entry level software engineer role to work on functional projects and contribute to company missions.</p>
                         <br></br>
                         <p>With my experience in data analytics, I am confident in my ability to work effectively and collaboratively with people from all backgrounds.</p>
+                        <a href='https://drive.google.com/file/d/18XyBKk4cD0GLYYkGolKLJvKim3TcbJZT/view?usp=sharing'>
+                        <button smooth={true} duration={500} className='text-color group border border-[#4C433D] dark:border-white px-6 py-3 my-2 flex items-center hover:bg-[#221F1B] hover:text-white hover:border-transparent rounded transition ease-in-out duration-300'>
+                                    Resume
+                                    <span className='group-hover:rotate-90 transition ease-in-out duration-300'></span>
+                        </button>
+                    </a>
                     </div>
                 </div>
                 
