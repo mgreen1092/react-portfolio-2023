@@ -1,5 +1,5 @@
 import React from "react";
-import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
+import {FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../../assets/logo.svg'
@@ -79,7 +79,6 @@ export default function Nav () {
           </div>
         
         </m.div>
-
 
     {/* mobile menu */}
     <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#EDEAE3] dark:bg-slate-800 flex flex-col justify-center items-center'}>

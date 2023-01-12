@@ -10,7 +10,7 @@ const Work = () => {
   return (
     <div name='work' className='w-full md:h-fit font-mono box-border background-color dark:bg-slate-800 dark:text-white'>
         {/* wave */}
-        <div className='w-full my-8'> 
+        <div className='dark:hidden w-full my-8'> 
             <img src={Wave} className='w-full py-4' alt='wave section divider'></img>
         </div> 
 

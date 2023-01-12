@@ -27,7 +27,7 @@ const Home = () => {
                         alt='headshot'/>
                 </div>
 
-                <div data-aos='fade-left' className='w-full md:h-full md:w-2/3 px-8 mx-auto flex flex-col justify-center h-fit font-mono text-color'>
+                <div data-aos='fade-right' className='w-full md:h-full md:w-2/3 px-8 mx-auto flex flex-col justify-center h-fit font-mono text-color'>
                     <p className='mt-8 text-lg md:text-xl'>Hi, my name is</p>
                     <h1 className='text-4xl md:text-6xl font-bold font-display py-4'>Morgan Green</h1>
                     <h2 className='text-lg md:text-xl font-bold'>

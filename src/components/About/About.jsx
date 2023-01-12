@@ -8,7 +8,7 @@ export default function About () {
             <div className='flex flex-col justify-center items-center w-full h-full font-mono dark:bg-slate-800 dark:text-white'>
     
                 {/* wave */}
-                <div className=' w-full mb-16'> 
+                <div className='dark:hidden w-full mb-16'> 
                     <img src={Wave} className='w-full py-14' alt='png of wave section divider'></img>
                 </div>
     
