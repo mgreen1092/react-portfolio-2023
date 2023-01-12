@@ -6,7 +6,7 @@ import Logo from '../../assets/logo.svg'
 import {Link} from 'react-scroll'
 import { useState } from "react";
 import Switcher from '../Switcher/Switcher'
-import DarkModeLogo from '../../assets/logo.svg'
+import DarkModeLogo from '../../assets/darkModeLogo.svg'
 
 export default function Nav () {
     const [nav, setNav] = useState(false)
