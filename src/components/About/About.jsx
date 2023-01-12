@@ -1,7 +1,6 @@
 import React from "react"
 import Wave from '../../assets/Wave.svg';
-import {Link} from 'react-scroll';
-import {HiArrowNarrowRight} from 'react-icons/hi'
+
 
 export default function About () {
     return (
