@@ -8,11 +8,11 @@ My portfolio was created using React and Tailwind CSS. There is an option to sel
 ## Screenshots
 
 ## Light Mode
-![](../../../Desktop/Screen%20Shot%202023-01-12%20at%2011.44.49%20AM.png)
+(../../../Desktop/Screen%20Shot%202023-01-12%20at%2011.44.49%20AM.png)
 
 ## Dark Mode
-![](../../../Desktop/Screen%20Shot%202023-01-12%20at%2011.45.00%20AM.png)
+(../../../Desktop/Screen%20Shot%202023-01-12%20at%2011.45.00%20AM.png)
 
 ## Mobile View
-![](../../../Desktop/Screen%20Shot%202023-01-12%20at%2011.45.37%20AM.png)
-![](../../../Desktop/Screen%20Shot%202023-01-12%20at%2011.45.51%20AM.png)
+(../../../Desktop/Screen%20Shot%202023-01-12%20at%2011.45.37%20AM.png)
+(../../../Desktop/Screen%20Shot%202023-01-12%20at%2011.45.51%20AM.png)
