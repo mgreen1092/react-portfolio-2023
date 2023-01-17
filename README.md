@@ -8,7 +8,7 @@ My portfolio was created using React and Tailwind CSS. There is an option to sel
 ## Screenshots
 
 Light Mode
-![](../portfolio/src/assets/mainpagelightmode.png)
+<img width="1024" alt="Screen Shot 2022-10-27 at 1 45 05 PM" src="../portfolio/src/assets/mainpagelightmode.png">
 
 Dark Mode
 ![](../portfolio/src/assets/mainpagedarkmode.png)
