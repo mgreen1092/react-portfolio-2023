@@ -11,8 +11,10 @@ Light Mode
 <img width="1024" alt="Screen Shot 2022-10-27 at 1 45 05 PM" src="src/assets/mainpagelightmode.png">
 
 Dark Mode
-![](../portfolio/src/assets/mainpagedarkmode.png)
+<img width="1024" alt="Screen Shot 2022-10-27 at 1 45 05 PM" src="src/assets/mainpagedarkmode.png">
 
-![Mobile View Light Mode](../../../Desktop/Screen%20Shot%202023-01-12%20at%2011.45.37%20AM.png)
+Mobile View
+<img width="1024" alt="Screen Shot 2022-10-27 at 1 45 05 PM" src="src/assets/mainpagelightmode.png">
 
-![Mobile View Dark Mode](../../../Desktop/Screen%20Shot%202023-01-12%20at%2011.45.51%20AM.png)
+<img width="1024" alt="Screen Shot 2022-10-27 at 1 45 05 PM" src="src/assets/mainpagelightmode.png">
+
