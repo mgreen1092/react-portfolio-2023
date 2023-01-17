@@ -7,10 +7,11 @@ My portfolio was created using React and Tailwind CSS. There is an option to sel
 
 ## Screenshots
 
+Light Mode
+![](../portfolio/src/assets/mainpagelightmode.png)
 
-![Light Mode](../../../Desktop/Screen%20Shot%202023-01-12%20at%2011.44.49%20AM.png)
-
-![Dark Mode](../../../Desktop/Screen%20Shot%202023-01-12%20at%2011.45.00%20AM.png)
+Dark Mode
+![](../portfolio/src/assets/mainpagedarkmode.png)
 
 ![Mobile View Light Mode](../../../Desktop/Screen%20Shot%202023-01-12%20at%2011.45.37%20AM.png)
 
