@@ -6,10 +6,10 @@ const Contact = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
     return (
-        <div name='contact' className='w-full h-fit flex flex-col justify-center items-center py-16 font-mono background-color dark:bg-slate-800 dark:text-white'>
+        <div name='contact' className='w-full h-fit flex flex-col justify-center items-center py-16 font-mono background-color '>
 
             {/* wave */}
-            <div> 
+            <div className='w-screen mb-16'> 
                 <img src={Wave} className='w-full' alt='wave section divider'></img>
             </div>
 

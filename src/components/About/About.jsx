@@ -4,14 +4,12 @@ import Wave from '../../assets/Wave.svg';
 
 export default function About () {
     return (
-        <div name='about' className='w-full h-fit background-color'>
-    
-            <div className='flex flex-col justify-center items-center w-full h-full font-mono dark:bg-slate-800 dark:text-white'>
-    
-                {/* wave */}
-                <div> 
-                    <img src={Wave} className='w-full py-10' alt='png of wave section divider'></img>
-                </div>
+        <div name='about' className='w-full h-fit flex flex-col justify-center items-center py-16 font-mono background-color '>
+
+        {/* wave */}
+            <div className='w-screen mb-16'> 
+                <img src={Wave} className='w-full' alt='wave section divider'></img>
+            </div>
     
                 {/* title */}
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8' data-aos='fade-right'> 
@@ -73,6 +71,5 @@ export default function About () {
                 </div>
                 
             </div>
-        </div>
       )
 }
