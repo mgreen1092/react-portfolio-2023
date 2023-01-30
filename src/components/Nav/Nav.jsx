@@ -13,7 +13,7 @@ export default function Nav () {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
     return (
-    <div className='background-color text-color fixed w-full h-[100px] flex justify-between items-center text-grey-300 font-mono z-10 max-w-[1200px] dark:bg-slate-800 dark:text-white'>
+    <div className='background-color text-color fixed w-full h-[75px] flex justify-between items-center text-grey-300 font-mono z-10 max-w-[1200px] dark:bg-slate-800 dark:text-white'>
     <div>
         <div className='hidden dark:flex'>
             <img src={DarkModeLogo} alt='personal logo' style={{width: '70px'}} />
