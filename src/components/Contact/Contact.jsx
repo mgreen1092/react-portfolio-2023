@@ -26,7 +26,7 @@ const Contact = () => {
                 <input className='my-4 p-2 border rounded outline-none' type="email" placeholder='Email' name='email' required />
                 <textarea className='p-2 border rounded outline-none resize-none' name="message" rows="10" placeholder='Message' required></textarea>
 
-                <button className='border rounded border-[#4C433D] hover:bg-[#4C433D] hover:border-white hover:text-white px-4 py-3 my-8 mx-auto flex items-center transition ease-in-out duration-300'>Submit</button>
+                <button className='border rounded border-[#4C433D] hover:bg-[#4C433D] hover:border-white hover:text-white px-4 py-3 my-8 mx-auto flex items-center transition ease-in-out duration-300 dark:border-white'>Submit</button>
             </form>
             <button className='cursor-pointer'>
                 <Link  onClick={handleClick} to="home" smooth={true} duration={500}>
