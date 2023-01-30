@@ -4,7 +4,7 @@ import Wave from '../../assets/Wave.svg';
 
 export default function About () {
     return (
-        <div name='about' className='w-full h-fit flex flex-col justify-center items-center py-16 font-mono background-color '>
+        <div name='about' className='w-full h-fit flex flex-col justify-center items-center py-16 font-mono background-color dark:bg-slate-800 dark:text-white '>
 
         {/* wave */}
             <div className='w-screen mb-16'> 
