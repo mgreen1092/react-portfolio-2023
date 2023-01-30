@@ -38,7 +38,7 @@ const Work = () => {
                     alt={'screenshot of spotifly'} 
                     projectTitle='Spotifly'
                     projectSubtitle={'React | Mongoose | Express | Node.JS'}  
-                    desc={'Spotifly, a group project created in collaboration with two other students, is a music streaming app similar to Spotify allowing users to create and view playlists while streaming their favoritei songs without advertisements.'}
+                    desc={'Spotifly, a group project created in collaboration with two other students, is a music streaming app similar to Spotify allowing users to create and view playlists while streaming their favorite songs without advertisements.'}
                     demo={'https://spotifly-ga.vercel.app/login'} 
                     code={'https://github.com/aaixn/spotifly-frontend.git'}/>
     
