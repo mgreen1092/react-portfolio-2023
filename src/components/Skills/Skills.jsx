@@ -5,8 +5,8 @@ const Skills = () => {
   return (
     <div name='skills' className='w-full font-mono background-color dark:bg-slate-800 dark:text-white'>
         {/* wave */}
-        <div className='dark:hidden w-full mt-16 mb-8'> 
-            <img src={Wave} className='w-full' alt='wave section divider'></img>
+        <div> 
+            <img src={Wave} className='w-full py-10' alt='wave section divider'></img>
         </div>
         {/* container */}
         <div className='max-w-[1000px] mx-auto px-8 sm:px-16 flex flex-col justify-content w-full h-full'>

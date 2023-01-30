@@ -10,14 +10,14 @@ const Work = () => {
   return (
     <div name='work' className='w-full md:h-fit font-mono box-border background-color dark:bg-slate-800 dark:text-white'>
         {/* wave */}
-        <div className='dark:hidden w-full my-8'> 
-            <img src={Wave} className='w-full py-4' alt='wave section divider'></img>
+        <div> 
+            <img src={Wave} className='w-full py-10' alt='wave section divider'></img>
         </div> 
 
         {/* container */}
-        <div className='max-w-[1000px] mx-auto px-8 sm:px-16 flex flex-col justify-center w-full h-fulls'>
+        <div className='max-w-[1000px] mx-auto px-4 sm:px-16 flex flex-col justify-center w-full h-fulls'>
 
-            <div data-aos='fade-right' className='py-16'>
+            <div data-aos='fade-right' className='py-5'>
                 <p className='text-4xl font-display inline'>Work</p>
             </div>
 
@@ -41,14 +41,7 @@ const Work = () => {
                     desc={'Spotifly, a group project created in collaboration with two other students, is a music streaming app similar to Spotify allowing users to create and view playlists while streaming their favoritei songs without advertisements.'}
                     demo={'https://spotifly-ga.vercel.app/login'} 
                     code={'https://github.com/aaixn/spotifly-frontend.git'}/>
-            {/* ===================================================================== */}
-                {/* <ProjectCard 
-                    projectImg={RestaurantManager} 
-                    alt={'screenshot of login page for inventory manager app'}  projectTitle='Inventory Manager' 
-                    projectSubtitle={'Mongoose | Express | Node.js'} 
-                    demo={'https://restaurant-inventory-manager.herokuapp.com/'} 
-                    code={'https://github.com/christinalu3799/restaurant-inventory-manager'}/> */}
-            {/* ===================================================================== */}
+    
                 <Projects
                     projectImg={StockSeries} 
                     alt={'screenshot of Stock Series website'}  

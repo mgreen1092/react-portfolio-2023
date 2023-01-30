@@ -10,7 +10,7 @@ export default function About () {
     
                 {/* wave */}
                 <div> 
-                    <img src={Wave} className='w-full py-14' alt='png of wave section divider'></img>
+                    <img src={Wave} className='w-full py-10' alt='png of wave section divider'></img>
                 </div>
     
                 {/* title */}

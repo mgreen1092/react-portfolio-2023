@@ -9,7 +9,7 @@ const Contact = () => {
         <div name='contact' className='w-full h-fit flex flex-col justify-center items-center py-16 font-mono background-color dark:bg-slate-800 dark:text-white'>
 
             {/* wave */}
-            <div className='dark:hidden w-screen mb-16'> 
+            <div> 
                 <img src={Wave} className='w-full' alt='wave section divider'></img>
             </div>
 
